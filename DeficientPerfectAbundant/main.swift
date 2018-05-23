@@ -7,7 +7,7 @@ var integerInput = 0
 
 //First
 //Loop until valid input
-while(true) {
+while true {
     //wait for input + ensure input isn't nil
     guard let givenInput = readLine() else {
         //If we got into this structure, we have nil input
@@ -50,7 +50,7 @@ if integerInput < sumOfFactors {
 else if integerInput > sumOfFactors {
     print("Deficient")
 }
-else if internalScrapErr == sumOfFactors {
+else if integerInput == sumOfFactors {
     print("Perfect")
 }
 
